@@ -18,5 +18,4 @@ func Init(address string) {
 	if err != nil {
 		log.Fatalf("Connect to redis error, %v", err)
 	}
-	defer conn.Close()
 }
